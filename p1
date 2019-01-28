@@ -1,0 +1,10 @@
+#class defination
+class MyClass:
+  x = 5
+  def showme(self):
+      print('This is my first class')
+
+# Object
+m=MyClass() 
+print(m.x)
+m.showme()
